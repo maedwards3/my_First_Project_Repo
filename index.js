@@ -14,8 +14,14 @@ console.log("You will be going to " + randGenerator(destination) + "!");
 console.log("The type of restuarant you will eat at will be " + randGenerator(restaurant) + ".");
 console.log("Your mode of transportation will be by " + randGenerator(transportation) + ".");
 console.log("When you are there, you will be " + randGenerator(entertainment) + "!");
-
-
+let userSatisfied = parseInt(prompt("If you are you satisfied with the outcome of your trip, enter '1'. If you would like to change a part of your trip, enter '2'."));
+if(userSatisfied === 1){
+    console.log("We are excited you are satisfied with your randomly planned trip!");
+    alert("Congratulations on your upcoming trip!");
+}
+else if(userSatisfied === 2){
+    userSatisfied = prompt("Please enter '1' to change your location. '2' to change your restaurant. '3' to change your transportation. '4' to change your entertainment. '5' to ")
+}
 
 
 
